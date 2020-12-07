@@ -108,10 +108,12 @@ flex-wrap: wrap;
         padding-top: 80px;
     }
     .moviecontainer:hover {
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-        z-index:10;
-        transition: ease-in-out .3s;
+      filter: blur(4px);
+      -webkit-filter: blur(2px);
+      z-index:10;
+      transition: ease-in-out .3s;
+      cursor: pointer;
+      opacity: .6;
     }
     .fa-play{
         position: absolute;
@@ -132,4 +134,51 @@ flex-wrap: wrap;
 
 
 
+    .navbar-light .navbar-nav .nav-link{
+      color: white;
+    }
     
+.fa-play-circle{
+  color: #66CD00;
+}
+
+
+img{
+  width: 100%;
+}
+@media screen and (max-width:600px){
+
+   .moviecontainer a{
+    font-size: 15px;
+  }
+  img{
+    width:70%;
+    margin-bottom: 40px;
+  }
+  .row{
+    margin-left:8%;
+  }
+}
+
+
+@media screen and (min-width:600px){
+   .moviecontainer a{
+  font-size: 12px;
+}
+.moviecontainer span{
+  font-size: 12px;
+}
+}
+
+@media screen and (min-width:1000px){
+ .moviecontainer a{
+    font-size: 17px;
+  }
+ .moviecontainer span{
+    font-size: 17px;
+  }
+  }
+.nav-pills{
+  display: flex;
+  flex-wrap: wrap;
+}

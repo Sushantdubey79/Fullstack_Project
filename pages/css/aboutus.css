@@ -69,3 +69,13 @@ body {
 #html,#css,#jquery,#bootstrap,#js{
     cursor: pointer;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+  }
+  
+.fa-play-circle{
+    color: #66CD00;
+  }
+  .footer1{
+    margin-top: 100px;
+}
